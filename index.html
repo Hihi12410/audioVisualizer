@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="content">
+        <input type="file" id="fileupload" accept="audio\*">    
+        <audio id="audio" controls></audio>
+        <script src="visualizer.js" id="audio"></script>
+        <input type="range" min="1" max="100" id="power">
+    </div>
+    <canvas id="canvas"></canvas>
+</body>
+</html>
